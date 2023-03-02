@@ -1,0 +1,52 @@
+
+*{
+    margin:0;
+    padding: 1px;
+    box-sizing: border-box;
+   
+    
+
+}
+
+.container{
+   position:relative;
+   top:20px;
+   left:45%;
+   background-color: white;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+   
+   
+}
+.outer{
+    width:100vw;
+    height:100vh;
+    background:linear-gradient('to bottom left',blue,pink);
+}
+#height,#weight{
+    width: 150px;
+    height:25px;
+    margin-top: 30px;
+
+}
+#weight-guide{
+    background-color: pink;
+    color: rgb(93, 29, 241);
+    width:150px;
+    height:160px;
+
+}
+#results{
+    font-size: large;
+    color:aliceblue;
+
+}
+h1{
+    padding-left: 15px;
+    padding-top: 25px;
+}
+button{
+    color: #fff;
+    border-radius: 5px;
+    background-color: green;
+}

@@ -1,0 +1,56 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Positions</title>
+    <style>
+        body{
+            height:300vh;
+        }
+        .container{
+           
+            width:300px;
+            height:600px;
+            background-color: rgb(70, 75, 60);
+           
+        }
+        .box{
+            
+            width:100px;
+            height:100px;
+           
+        }
+        .red{
+            position:relative;
+            background-color: red;
+            top:100px;
+            left:100px;
+        }
+        .g{position: absolute;
+            background-color: rgb(16, 246, 19);
+            top:0;
+            right:0;
+        
+        }
+        .b{
+            position:fixed;
+            background-color: rgb(17, 20, 227);
+        
+        }
+        .p{
+            background-color: purple;
+            position:sticky;
+            top:50px;
+        }
+        </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box red">relative to upper parent</div>
+        <div class="box g">abolute (relative to root)</div>
+        <div class="box b">position fixed</div>
+        <div class="box p">sticky </div>
+    </div>
+</body>
+</html>

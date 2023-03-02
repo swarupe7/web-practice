@@ -1,0 +1,29 @@
+*{
+    margin:0;
+    padding:0;
+   background-color: aqua;
+   color: black;
+   font-size: large;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 400;
+
+}
+html,body{
+    display:grid;
+    place-items:center;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+  
+}
+.container{
+    height: 120px;
+    width:auto;
+    position:relative;
+    border-radius: 10px;
+    cursor:default;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+  
+}

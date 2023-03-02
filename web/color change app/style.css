@@ -1,0 +1,16 @@
+#canvas{
+    text-align: center;
+   
+    font-size: larger;
+   width:100%;
+   
+
+   
+}
+#button{
+    text-align: center;
+    background-color: chartreuse;
+    color: black;
+    height: 50px;
+    width:200px;
+}

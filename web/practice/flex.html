@@ -1,0 +1,53 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .flex-container{
+            display:flex;
+            background-color: rgb(255, 255, 255);
+            flex-wrap:wrap;
+            flex-direction: row;
+            justify-content: space-between;
+           
+           
+
+
+
+        }
+        .flex-container:hover{
+          flex-direction: column;
+          transition: height 50s;
+
+        }
+        .flexitem{
+            height:150px;
+            width:200px;
+            border: 5px solid black;
+        }
+        #item1{
+           background-color: rgb(210, 80, 10);
+        }
+        #item2{
+           background-color: rgb(41, 236, 48);
+        }
+        #item3{
+           background-color: rgb(42, 54, 227);
+        }
+        #item4{
+           background-color: rgb(252, 40, 223);
+        }
+        </style>
+</head>
+<body>
+    <div class="flex-container">
+        <div class="flexitem" id="item1"><h1>1</h1></div>
+        <div class="flexitem" id="item2"><h1>2</h1></div>
+        <div class="flexitem" id="item3"><h1>3</h1></div>
+        <div class="flexitem" id="item4"><h1>4</h1></div>
+    </div>
+    
+</body>
+</html>

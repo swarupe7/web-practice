@@ -1,0 +1,47 @@
+<html lang="en">
+<head>
+   
+    <title>Bouncing</title>
+    <style>
+        body{
+            background-color: black;
+        }
+        div{
+            top:100px;
+            left:350px;
+        }
+        a{
+            animation: bouncing 0.5s ease 0s infinite alternate-reverse both;
+            width:100px;
+            height:100px;
+           
+            left:150px;
+            border-radius:50%;
+            display:inline-block;
+            cursor:pointer;
+            background-color: rgb(203, 216, 216);
+            position:relative;
+           
+            margin-top: 100px;
+           
+        }
+        @keyframes bouncing {
+            0%{
+                bottom:0;
+                box-shadow:0 0 5px  rgb(203, 216, 216,0.5);
+
+            }
+            100%{
+                bottom:50px;
+                box-shadow:0 50px 50px  rgb(203, 216, 216,0.1);
+            }
+            
+        }
+    </style>
+
+</head>
+<body>
+     <a class="ball"></a>
+    
+</body>
+</html>

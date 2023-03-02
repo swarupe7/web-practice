@@ -1,0 +1,22 @@
+body{
+    background-color: rgb(37, 240, 30);
+    color: rgb(9, 21, 32);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+}
+#buttons{
+    width: 100px;
+    height: 30px;
+    border-radius: 50px;
+    color:black;
+   align:center;
+    transform:translate(-50%,-55%);
+    
+}
+#stopwatch{
+    font-size: large;
+    position:absolute;
+    top: 45px;
+    left:auto;
+    
+}

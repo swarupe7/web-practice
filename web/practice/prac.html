@@ -1,0 +1,29 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>trail</title>
+    <style>
+        p{
+            font-family: 'Courier New', Courier, monospace;
+
+        }
+        </style>
+</head>
+<body>
+    <p id="p1"><h1>Hi Bro What'sUp</h1></p>
+    <button id="btn">click</button>
+
+    <script>
+        var bd=document.getElementById("btn");
+       
+
+        bd.addEventListener('click',function(){
+           var c=['red','green','blue','yellow'];
+           var s=parseInt(Math.random()*c.length);
+            document.body.style.background=c[s];
+        })
+    </script>
+</body>
+</html>

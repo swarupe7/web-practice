@@ -1,0 +1,40 @@
+<html lang="en">
+<head>
+   
+    <title>Bouncing</title>
+    <style>
+        body{
+            background-color: black;
+        }
+        div{
+            top:100px;
+            left:150px;
+        }
+        .ball{
+            animation: bouncing 1s ease 0s infinite alternate both;
+            width:100px;
+            height:100px;
+            border-radius:50%;
+            background-color: rgb(203, 216, 216);
+            position:relative;
+        }
+        @keyframes bouncing {
+            0%{
+                bottom:0;
+                box-shadow:0 0 5px  rgb(203, 216, 216,0.5);
+
+            }
+            100%{
+                bottom:50%;
+                box-shadow:0 50px 50px  rgb(203, 216, 216,0.1);
+            }
+            
+        }
+    </style>
+
+</head>
+<body>
+     <div class="ball"></div>
+    
+</body>
+</html>
